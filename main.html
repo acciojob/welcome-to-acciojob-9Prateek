@@ -1,16 +1,69 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accio Jobs</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background: white;
+      width: 90%;
+      max-width: 600px;
+      border-radius: 8px;
+      padding: 2rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      color: #333;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 1rem;
+    }
+    .button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #10a37f; /* ChatGPT-ish green */
+      color: white;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+    .button:hover {
+      background-color: #0d8b6e;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <div class="container">
+    <h1>Welcome to Accio Jobs!</h1>
+    <p>
+      Find your dream job quickly and easily. Explore the latest listings,
+      apply with one click, and take your career to the next level.
+    </p>
+    <a href="#" class="button">Browse Jobs</a>
+  </div>
 </body>
-
 </html>
